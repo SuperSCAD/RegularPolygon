@@ -1,7 +1,8 @@
-from super_scad_regular_polygon.d0.RegularPolygon import RegularPolygon
 from super_scad.scad.Context import Context
 from super_scad.scad.ScadWidget import ScadWidget
 from super_scad.scad.Unit import Unit
+
+from super_scad_regular_polygon.d0.RegularPolygon import RegularPolygon
 
 
 class ImperialUnitPentagon(ScadWidget):

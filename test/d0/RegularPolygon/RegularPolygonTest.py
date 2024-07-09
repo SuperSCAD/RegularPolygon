@@ -2,12 +2,12 @@ import math
 
 from super_scad.boolean.Union import Union
 from super_scad.d2.Circle import Circle
-from super_scad.d2.RegularPolygon import RegularPolygon
 from super_scad.scad.Scad import Scad
 from super_scad.scad.Unit import Unit
 from super_scad.transformation.Paint import Paint
 from super_scad.type.Color import Color
 
+from super_scad_regular_polygon.d0.RegularPolygon import RegularPolygon
 from test.d0.RegularPolygon.ImperialUnitPentagon import ImperialUnitPentagon
 from test.ScadTestCase import ScadTestCase
 
